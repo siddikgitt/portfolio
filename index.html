@@ -1,12 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Beginner in React. Will update my best portfolio soon</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>responsive personal portfolio website design tutorail</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header>
+      <div class="user">
+        <img src="images/profile_crop.jpeg" alt="" />
+        <h3 class="name">Siddikkhan Pathan</h3>
+        <p class="post">Full Stack Web Developer</p>
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#skill">skills</a></li>
+          <li><a href="#education">education</a></li>
+          <li><a href="#portfolio">portfolio</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- header section ends -->
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <h3>HI THERE !</h3>
+      <h1>I'M <span>Siddikkhan Pathan</span></h1>
+      <p>
+        Quick learner and an aspiring full-stack web developer with core
+        knowledge of MERN stack technology. Looking forward to applying and
+        enhancing my skills and knowledge as a developer.
+      </p>
+      <a href="#about"
+        ><button class="btn">about me <i class="fas fa-user"></i></button
+      ></a>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>about</span> me</h1>
+
+      <div class="row">
+        <div class="info">
+          <h3><span> name : </span> Siddikkhan Pathan</h3>
+          <h3><span> age : </span> 22</h3>
+          <h3><span> qualification : </span> BSc Computer Science</h3>
+          <h3><span> post : </span> full stack web developer</h3>
+          <h3><span> language : </span> english</h3>
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1cY3wq16PRvj41oqkueM9QbBO9aDHOrC6/view?usp=sharing"
+            ><button class="btn">Resume</button></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+     <!-- skill section starts  -->
+
+     <section class="skill" id="skill">
+        <h1 class="heading"><span>skills</span></h1>
+
+        <div style="display: flex; gap: 70px; margin-top: 100px; margin-left: 70px;">
+            <img style="height: 200px;width: 144px" src="https://gayathry-portfolio.vercel.app/html.png" alt="">
+            <img style="height: 200px;width: 144px" src="https://gayathry-portfolio.vercel.app/css.png" alt="">
+            <img style="height: 200px;width: 144px" src="https://gayathry-portfolio.vercel.app/js.png" alt="">
+            <img style="height: 200px;width: 144px" src="https://gayathry-portfolio.vercel.app/logo512.png" alt="">
+            
+            
+        </div>
+      </section>
+  
+      <!-- skill section ends -->
+
+    <!-- education section starts  -->
+
+    <section class="education" id="education">
+      <h1 class="heading">my <span>education</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2021</span>
+          <h3>BSc Computer Science</h3>
+          <p>
+            Completed my graduation from "SIES college of Arts, Science and
+            Commerce" one of top college in Mumbai with 7.63 CGPA
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2022</span>
+          <h3>Masai School</h3>
+          <p>
+            Joined a 30 week, Full Time, Full Stack Web Development bootcamp, to
+            master MERN stack, DSA and Soft Skills.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- education section ends -->
+
+    <!-- portfolio section starts  -->
+
+    <section class="portfolio" id="portfolio">
+      <h1 class="heading">my <span>portfolio</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <a target="_blank" href="https://github.com/siddikgitt/Nykaa">
+            <img
+              style="width: fit-content"
+              src="./images/nykaa_project.jpg"
+              alt="nykaa"
+            />
+          </a>
+        </div>
+
+        <div class="box">
+          <a
+            target="_blank"
+            href="https://github.com/Deepumandal/Modesens"
+          >
+            <img
+              style="width: fit-content"
+              src="images/modesens_project.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact</span> me</h1>
+
+      <div class="row">
+        <div class="content">
+          <h3 class="title">contact info</h3>
+
+          <div class="info">
+            <h3><i class="fas fa-envelope"></i> siddikkhanpathan4@gmail.com</h3>
+            <h3><i class="fas fa-phone"></i> +91 9076254108</h3>
+            <h3><i class="fas fa-phone"></i> +91 8104330574</h3>
+            <h3>
+              <i class="fas fa-map-marker-alt"></i> mumbai, india - 400703.
+            </h3>
+          </div>
+
+          <div style="display: flex; gap: 20px">
+            <a target="_blank" href="https://www.linkedin.com/in/siddikkhan/">
+              <img src="./images/linkedin_icon.png" alt="" />
+            </a>
+
+            <a target="_blank" href="https://github.com/siddikgitt">
+              <img src="./images/github_icon.png" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <form action="">
+          <input type="text" placeholder="name" class="box" />
+          <input type="email" placeholder="email" class="box" />
+          <input type="text" placeholder="project" class="box" />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            class="box message"
+            placeholder="message"
+          ></textarea>
+          <button type="submit" class="btn">
+            send <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- scroll top button  -->
+
+    <a href="#home" class="top">
+      <img src="images/scroll-top-img.png" alt="" />
+    </a>
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
